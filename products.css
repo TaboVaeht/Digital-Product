@@ -1,0 +1,143 @@
+html body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+ }
+
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+ :root{
+     --greeen-color:#7acc2d;
+     --white-color:white;
+     --black-color: #313337;
+     --space: 10px;
+     --tipografia: 15px;
+     --box_shadow: 0px 0 2px 1px #e6e5e9
+ }
+
+ nav {
+     background-color: var(--greeen-color);
+     padding: var(--space);
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: var(--tipografia);
+ }
+
+ nav ul{
+     display: flex;
+
+ }
+
+
+ nav li{
+     list-style: none;
+     padding-left: 20px;
+ }
+
+ nav li a{
+     color: var(--black-color);
+     text-decoration: none;
+ }
+
+ nav li a:hover{
+     color: var(--white-color);
+ }
+
+.products_{
+  padding: 15%  ;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+
+.products_  p{
+text-align: center;
+font-size: 15px;
+}
+
+.products_ h1{
+  text-align: center;
+}
+
+.logos_products{
+  align-items: center;
+}
+
+.DESCP_PRODUCTS{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.AVISO{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.PALTA{
+  padding: 7%;
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logoPalta_product{
+  height: 205px;
+  width: 205px;
+  margin-top: 0%;
+}
+
+.PALTA  p{
+text-align: center;
+font-size: 15px;
+margin-top: 70px;
+}
+
+.PALTA h1{
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+.miembros{
+  display: list-item;
+  padding: 20%;
+  margin-top: 20px;
+}
+
+.MIEMBRO{
+  text-align: center;
+  font-size: 25px;
+}
+
+.redes_sociales{
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+
+}
+
+.for_me{
+  text-align: center;
+  font-size: 18px;
+}
+
+.nombre{
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.div_miembro{
+  text-align: center;
+  align-items: center;
+}
+
+.div_miembro img{
+  border-radius: 35%;
+}
